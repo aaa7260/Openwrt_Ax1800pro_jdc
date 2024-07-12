@@ -28,7 +28,7 @@
 git clone https://github.com/f8q8/luci-app-autoreboot package/luci-app-autoreboot
 
 #克隆passwall环境插件
-git clone https://github.com/xiaorouji/openwrt-passwall-packages package/helloworld
+#git clone https://github.com/xiaorouji/openwrt-passwall-packages package/helloworld
 #git clone --depth=1 -b 18.06 https://github.com/kiddin9/luci-theme-edge package/luci-theme-edge
 #git clone --depth=1 https://github.com/derisamedia/luci-theme-alpha package/luci-theme-alpha
 #克隆的源码放在small文件夹,预先建立small文件夹
@@ -40,7 +40,7 @@ pushd package/small
 #passwall2
 #git clone -b main --depth 1 https://github.com/xiaorouji/openwrt-passwall2.git
 #git clone -b luci-smartdns-dev --depth 1 https://github.com/xiaorouji/openwrt-passwall.git
-git clone -b main --depth 1 https://github.com/xiaorouji/openwrt-passwall.git
+#git clone -b main --depth 1 https://github.com/xiaorouji/openwrt-passwall.git
 git clone --depth=1 -b master https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
 git clone --depth=1 -b master https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
 #mosdns
