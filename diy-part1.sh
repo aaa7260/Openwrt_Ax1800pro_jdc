@@ -46,5 +46,6 @@ git clone --depth=1 -b master https://github.com/jerrykuku/luci-app-argon-config
 #mosdns
 #git clone -b v5 --depth 1 https://github.com/sbwml/luci-app-mosdns.git
 #git clone --depth=1 https://github.com/fw876/helloworld.git
-
+git clone --depth=1 -b main https://github.com/fw876/helloworld package/luci-app-ssr-plus
+git_sparse_clone master https://github.com/vernesong/OpenClash luci-app-openclash
 popd
