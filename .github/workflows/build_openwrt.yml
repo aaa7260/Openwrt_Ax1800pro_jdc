@@ -46,6 +46,10 @@ env:
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
 
+# 解决方案
+permissions:
+  contents: write
+  
 jobs:
   build:
     runs-on: ubuntu-22.04
