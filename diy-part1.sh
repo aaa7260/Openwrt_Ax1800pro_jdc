@@ -35,6 +35,13 @@ git clone https://github.com/f8q8/luci-app-autoreboot package/luci-app-autoreboo
 mkdir package/small
 pushd package/small
 
+
+
+# 调整 Docker 到 服务 菜单
+sed -i 's/"admin"/"admin", "services"/g' feeds/luci/applications/luci-app-dockerman/luasrc/controller/*.lua
+sed -i 's/"admin"/"admin", "services"/g; s/admin\//admin\/services\//g' feeds/luci/applications/luci-app-dockerman/luasrc/model/cbi/dockerman/*.lua
+sed -i 's/admin\//admin\/services\//g' feeds/luci/applications/luci-app-dockerman/luasrc/view/dockerman/*.htm
+sed -i 's|admin\\|admin\\/services\\|g' feeds/luci/applications/luci-app-dockerman/luasrc/view/dockerman/container.htm
 #克隆源码
 
 #passwall2
