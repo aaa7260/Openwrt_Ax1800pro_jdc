@@ -14,9 +14,9 @@
 
 
 #替换为新版本golang
-#rm -rf feeds/packages/lang/golang
-#git clone https://github.com/gorilla/feeds feeds/packages/lang/golang
-#./scripts/feeds install -a -f
+rm -rf feeds/packages/lang/golang
+git clone https://github.com/gorilla/feeds feeds/packages/lang/golang
+./scripts/feeds install -a -f
 
 
 
